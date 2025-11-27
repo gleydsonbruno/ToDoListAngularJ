@@ -31,11 +31,11 @@ button {
     cursor: pointer;
     border: none;
     color: #fff;
-    background-color: brown;
+    background-color: #3A86FF ;
     padding: 4px;
 }
 
 button:hover {
-    color: green;
-    background-color: blue;
+    color: #9E9E9E ;
+    background-color: #E0E0E0 ;
 }

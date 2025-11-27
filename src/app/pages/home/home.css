@@ -36,7 +36,7 @@
     flex: 1;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #c1d6b5;
+    border: 1px solid #3A86FF;
     border-radius: 14px;
     margin-right: 10px;
 }
@@ -48,6 +48,7 @@
     border: none;
     cursor: pointer;
     border-radius: 14px;
+    
 }
 
 .task-list {
@@ -62,7 +63,7 @@
     margin-bottom: 10px;
     background-color: #fff;
     border-radius: 14px;
-    box-shadow: 0px 1px 4px rgb(0, 0, 0, 0.525);
+    box-shadow: 0px 1px 4px rgb(0, 0, 0, 0.525);    
 }
 
 .task-list button {
@@ -72,9 +73,25 @@
     cursor: pointer;
     border-radius: 8px;
     background-color: red;
+    
 }
 
 .task-list li.completed {
     text-decoration: line-through;
     color: grey;
+}
+
+i {
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.bi-trash3-fill {
+    color: #F7F7F7;
+}
+
+.task-name {
+    display: flex;
+    background-color: transparent;
+    text-align: left;
 }

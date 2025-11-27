@@ -2,7 +2,6 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
-
 export interface TodoItem {
   id: number;
   task: string;
@@ -19,6 +18,7 @@ export interface TodoItem {
 export class Home {
   todoList: TodoItem[] = [];
   newTask: string = '';
+
 
   ngOnInit() {
     const saved = localStorage.getItem('todoList');

@@ -1,14 +1,20 @@
+<head>
+    <title>Login</title>
+</head>
+
 <body>
     <div class="auth-container">
         <h2>{{isLoginMode ? 'Login' : 'Cadastro'}}</h2>
 
         <form [formGroup]="form" (ngSubmit)="onSubmit()">
 
-            <div *ngIf="!isLoginMode">
+            @if (!isLoginMode) {
+            <div>
                 <label for="name">Nome :</label>
                 <input id="name" formControlName="name">
             </div>
-
+            }
+            
             <label for="email">Email :</label>
             <input id="email" type="email" formControlName="email">
 
